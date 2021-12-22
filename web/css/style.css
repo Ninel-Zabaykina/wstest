@@ -40,3 +40,16 @@ body{
     color: #fff;
     background: #d0a5a5;
 }
+.b1{
+    background: #d0a5a5; /* Синий цвет фона */
+    color: white; /* Белые буквы */
+    font-size: 15pt;
+    padding: 0.5em 1em;
+}
+.lead{
+    font-style: italic;
+}
+.design{
+    background-image: url('/web/images/plan.jpg');
+    background-size: 100% 100%;
+}

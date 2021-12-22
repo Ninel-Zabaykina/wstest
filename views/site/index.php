@@ -9,14 +9,15 @@ $this->title = 'DesignPRO';
 ?>
 
 <div class="site-index">
-
+<section class="design">
     <div class="jumbotron text-center bg-transparent">
-        <h1 class="display-4">Congratulations!</h1>
+        <h1 class="display-4"><b>Design.Pro</b></h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead"><b>Мы перестроим ваш мир к лучшему.</b></p>
 
-        <p><?= Html::a('Users', ['user/index'], ['class' => 'btn btn-lg btn-success']); ?></p>
+        <p><?= Html::a('Оставить заявку', ['user/index'],['class'=>'b1']); ?></p>
     </div>
+</section>
 
     <div class="body-content">
         <div class="bids">
