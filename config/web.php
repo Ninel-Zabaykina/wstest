@@ -49,7 +49,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
             ],
-        ],git
+        ],
 
     ],
     'params' => $params,

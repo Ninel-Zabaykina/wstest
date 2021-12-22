@@ -2,9 +2,11 @@
 
 namespace app\controllers;
 
+use app\models\Bid;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
+use yii\web\Request;
 use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
@@ -61,7 +63,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $bids = Bid::find() -> all();
+        return $this->render('index', ['bids' => $bids]);
     }
 
     /**
